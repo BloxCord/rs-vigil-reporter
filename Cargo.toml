@@ -20,6 +20,7 @@ serde = "1.0"
 serde_derive = "1.0"
 sys-info = "0.7"
 reqwest = { version = "0.10", features = ["native-tls-vendored", "gzip", "blocking", "json"], default-features = false }
+vigil-reporter = "1.2.0"
 
 [dev-dependencies]
 env_logger = "0.5"
